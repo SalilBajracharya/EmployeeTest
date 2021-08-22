@@ -1,0 +1,66 @@
+﻿@model IEnumerable<MVC.Models.EmployeeMVC>
+<p>
+    <a href="@Url.Action("AddEmployee","Employee")" class="btn btn-default"><i class="fa fa-plus"></i> Add Employee</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JoiningDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skills)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Photo)
+        </th>
+        <th></th>
+    </tr>
+
+    @*@if (Model.Count() > 0)
+        {*@
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JoiningDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Skills)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.Photo)*@
+                <img src="~/Uploads/@item.Photo" height="200px" width="200px">
+            </td>
+            <td>
+                <a href="@Url.Action("EditEmployee","Employee", new { id = item.Id })" class="btn btn-default"><i class="fa fa-pencil"></i> Edit</a>
+                <a onclick="Delete(@item.Id)" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+            </td>
+        </tr>
+    }
+    @*}
+        else
+        {
+            <tr>
+                <td colspan="7">No data available.</td>
+            </tr>
+        }*@
+
+</table>

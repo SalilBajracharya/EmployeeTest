@@ -1,0 +1,12 @@
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\salil\source\repos\Employees\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\salil\source\repos\Employees\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\salil\source\repos\Employees\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\salil\source\repos\Employees\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\salil\source\repos\Employees\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\salil\source\repos\Employees\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

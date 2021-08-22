@@ -1,0 +1,32 @@
+﻿@model  List<DataAccessLayer.DAL.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>PhoneNo</th>
+            <th>Joining Date</th>
+            <th>Skills</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Address</td>
+            <td>@item.PhoneNo</td>
+            <td>@item.JoiningDate</td>
+            <td>@item.Skills</td>
+
+        </tr>
+        }
+    </tbody>
+</table>
