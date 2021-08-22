@@ -64,7 +64,7 @@ namespace Employees.Repository
         }
 
         public IEnumerable<Employee> GetAll()
-        {
+        {             
             return db.Employees;
         }
 

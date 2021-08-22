@@ -21,7 +21,7 @@ namespace MVC.Models
         public string Skills { get; set; }
         [Required]
         [DataType(DataType.Upload)]
-        [RegularExpression(@"([a-zA-Z0-9\s_\\.\-:])+(.png|.jpg|.gif)$", ErrorMessage = "Only Image files allowed.")]
+        [RegularExpression(@"([a-zA-Z0-9\s_\\.\-:])+API $", ErrorMessage = "Only Image files allowed.")]
         public string Photo { get; set; }
     }
 }
